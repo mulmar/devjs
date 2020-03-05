@@ -1,0 +1,112 @@
+JAVASCRIPT TYPES
+-----------------
+1. Number 
+2. String
+3. Boolean
+4. Undefined
+5. Null
+Symbol (new in ECMAScript 6) used as identifier for objects
+7. Object  (Is also a data structure)
+
+JAVASCRIPT COMPARISONS
+-----------------
+
+!==
+===
+>=
+<=
+>
+<
+
+JAVASCRIPT VARIABLES
+-----------------
+var (new scope only within function)
+let (new in ECMAScript 6)   the new var (dont use var anymore) new scope within { }
+const (new in ECMAScript 6) usefull for working on code with multipe people. cant be changed
+
+JAVASCRIPT CONDITIONALS
+-----------------
+if
+else
+else if
+<!-- ternary operator -->  short notation for if, else
+<!-- switch --> better way for multiple if else if else
+
+
+JAVASCRIPT LOGICAL OPERATORS
+-----------------
+&&
+||
+!
+
+JAVASCRIPT FUNCTIONS
+-----------------
+var add = function (a,b) {
+	return a+b;
+}	
+
+function add(a,b) {
+	return a+b;
+}
+
+(new way in ECMAScript 6)
+const add = (a,b) => a+b;
+
+JAVASCRIPT DATA STRUCTURES
+-----------------
+Array [0,1,2,3]
+Object (is also a JS type) 
+
+let user = {
+	username: "Martin",
+	password: "secret",
+	hobby: "gaming",
+	games: ["Fifa", "Fortnite", "Overcooked"],
+	shout: function() {
+		console.log("AHAAAHHHHHHH");
+	}
+};
+
+JAVASCRIPT LOOPING
+-----------------
+for
+while
+do 
+forEach (new in ECMAScript 5) 
+
+
+JAVASCRIPT KEYWORDS
+-----------------
+break
+case
+catch
+class
+const
+continue
+debugger
+default
+delete
+do
+else
+export
+extends
+finally
+for
+function
+if
+import
+in
+instanceof
+new
+return
+super
+switch
+this
+throw
+try
+typeof
+var
+void
+while
+with
+yield
