@@ -453,6 +453,6 @@ for (item in detailedBasket) {
 	console.log(item)
 }
 
-
+//end
 
 
