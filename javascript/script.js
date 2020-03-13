@@ -1,3 +1,8 @@
+var _ = require ('lodash');
+
+console.log(_);
+let arrie = [1,2,3,4,5,6,7,8];
+console.log('answer:', _.without(arrie, 3));
 /*
 // Make an keyless car EVEN BETTER!
 // We are improving our car from previous exercise now. 
